@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.box {
+width: 200px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid #790D16;
+    background-color: #AEC4D4;
+    text-align: center;
+}
+
+.use-content-box {
+    box-sizing: content-box;
+}
+
+.use-border-box {
+    box-sizing: border-box;
+}

@@ -92,6 +92,8 @@ a {
     bottom: 30px;
     right: 30px;
     z-index: 100;
+    text-decoration: none;
+
 }
 
 .back-to-top:hover {
